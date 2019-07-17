@@ -1,0 +1,16 @@
+     clc;
+	close all;
+	clear;
+	img = imread('lena.jpg');
+	subplot(2,2,1);
+	imshow(img);
+	title('Original image');
+	I1 = rgb2gray(img);
+	subplot(2,2,2);
+	imshow(I1);
+	title('Gray image');
+	[U, S, V] = svd(double(I1));
+	I2 = uint8(U*S*V');
+	subplot(2,2,3);
+	imshow(I2);
+	title('Reconstructed Image');
