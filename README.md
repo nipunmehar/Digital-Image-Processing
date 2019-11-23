@@ -7,4 +7,4 @@ This repository has the Matlab codes for the course of Digital Image Processing 
 ## Requirements
 Matlab
 
-### Follow me on GitHub For more and feel free to contact me on nipunmehar10@gmail.com . 
+### Follow me on GitHub For more and feel free to contact me at nipunmehar10@gmail.com . 
